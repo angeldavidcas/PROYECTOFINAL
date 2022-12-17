@@ -1,0 +1,176 @@
+
+body{
+    max-width: 1700px;/* tamaño y central la pagina */
+    margin:  0 auto;
+    font-family: 'Poppins', sans-serif;/* FUENTE TIPO DE LETRA EN GOOGLE FONTS */
+    font-weight: 400;
+
+}
+nav ul li{
+
+    transition: 0.3s all;
+    padding: 10px 12px;/* diseño botones barra */
+    font-family: 'Heebo', sans-serif;
+}
+.carrucel{
+background-color: aqua;
+}
+
+
+nav ul li:hover{
+
+    background-color: rgb(198, 118, 19);   /* transicion barra */
+
+}
+/* seccion 1 */
+.video{
+    width: 50%;
+    padding: 10px;
+}
+
+.texto{
+
+    width: 50%;/* tamaño donde este el parrafo rollitos de panado */
+    padding: 5px;
+    vertical-align: top;/* para ordenar los textos de los parrafos */
+}
+
+
+article{
+
+    padding: 30px;
+    background-color:white /* fondo del parrafo */
+}
+
+.texto, .video{
+    display: inline-block;
+}
+.boton{
+    text-align: center;/* alinear el texto  del punto de informacion*/
+    background-color: #f88706;
+    padding: 5px;
+}
+.boton a{
+    text-decoration: none;/* para el boton de informacion  */
+    color: blue;
+
+}
+.boton:hover{
+    background:white;/* color del fondo de las letras de informacion */
+}
+
+section{
+
+    background-color: rgb(244, 137, 16);/* color del fondo  donde esta video y la receta*/
+    padding: 20px;
+    text-align: center;
+}
+
+section h1{
+    border-bottom: 2px solid rgb(76, 9, 246);/* color para las lineas de los nombre */
+
+}
+.img-art{
+   max-width: 100%;
+
+}
+
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+text-align: center;
+}
+
+nav{
+
+    background-color: rgb(221, 181, 195);/* color de barra de diseño */
+}
+
+section h5{
+
+border-bottom: 3px solid rgb(213, 254, 10);/* color para las lineas de los nombre */
+}
+section h4{
+
+    border-bottom: 3px solid rgb(2, 99, 235);/* color para las lineas de los nombre */
+    }
+    
+
+
+/* formulario ----------------------------------*/
+
+.form-register{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.form-register{
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgb(248, 13, 13);
+      box-shadow: 7 px 13px rgb(3, 253, 249);
+
+}
+.form-register h4{
+font-size: 22px;
+margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #14c397;
+    font-size: 18px;
+}
+.form-register p {
+
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+color: rgb(240, 240, 7);
+text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-register.botons {
+    width: 100%;
+    background: rgb(231, 231, 238);
+    border: none;
+    padding: 12px;
+    color: rgb(216, 17, 17);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+body{
+ background-color: white;/* color del fondo de la pagina */
+width: 1000px;
+margin: 0 auto;
+}
+
+.footer{
+margin-top: 0%;
+background-color: white;
+}
+.pd{
+padding: 15%;
+
+}
+.bp{
+
+    padding: 3%;
+    background-color: antiquewhite;
+}
